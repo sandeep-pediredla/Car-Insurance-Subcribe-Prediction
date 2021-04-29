@@ -438,7 +438,7 @@ plt.show()
 
 
     
-![png](doc/images/output_6_1.png)
+![png](docs/images/output_6_1.png)
     
 
 
@@ -492,7 +492,7 @@ sns.countplot(df['CarInsurance']).set_title('Distrinution of CarInsurance')
 
 
     
-![png](doc/images/output_8_2.png)
+![png](docs/images/output_8_2.png)
     
 
 
@@ -522,7 +522,7 @@ def feature_target_dist_plots(df, col_name):
 
 
     
-![png](doc/images/output_10_1.png)
+![png](docs/images/output_10_1.png)
     
 
 
@@ -539,7 +539,7 @@ feature_target_dist_plots(df, 'Marital')
 
 
     
-![png](doc/images/output_12_1.png)
+![png](docs/images/output_12_1.png)
     
 
 
@@ -556,7 +556,7 @@ feature_target_dist_plots(df, 'Education')
 
 
     
-![png](doc/images/output_14_1.png)
+![png](docs/images/output_14_1.png)
     
 
 
@@ -573,7 +573,7 @@ feature_target_dist_plots(df, 'Communication')
 
 
     
-![png](doc/images/output_16_1.png)
+![png](docs/images/output_16_1.png)
     
 
 
@@ -590,7 +590,7 @@ feature_target_dist_plots(df, 'Outcome')
 
 
     
-![png](doc/images/output_18_1.png)
+![png](docs/images/output_18_1.png)
     
 
 
@@ -610,7 +610,7 @@ g=sns.heatmap(df[top_corr_features].corr(),annot=True,cmap="RdYlGn")
 
 
     
-![png](doc/images/output_20_0.png)
+![png](docs/images/output_20_0.png)
     
 
 
@@ -743,7 +743,7 @@ plt.show()
 
 
     
-![png](doc/images/output_27_0.png)
+![png](docs/images/output_27_0.png)
     
 
 
@@ -924,7 +924,7 @@ plt.show()
 
 
     
-![png](doc/images/output_36_0.png)
+![png](docs/images/output_36_0.png)
     
 
 
