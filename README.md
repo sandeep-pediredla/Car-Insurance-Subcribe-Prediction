@@ -73,6 +73,28 @@ docker build -t car_insurance_prediction .
 ```
 docker run -p 8888:8888 car_insurance_prediction
 
+#### Run 
+##### Rest Post request:
+
+{
+   "Age": 25,
+   "Job": "admin.",
+   "Marital": "single",
+   "Education": "secondary",
+   "Default": 0,
+   "Balance": 1,
+   "HHInsurance": 1,
+   "CarLoan": 1,
+   "Communication": "",
+   "LastContactDay": 12,
+   "LastContactMonth": "may",
+   "NoOfContacts": 12,
+   "DaysPassed": -1,
+   "PrevAttempts": 0,
+   "Outcome": "",
+   "CallStart": "17:17:42",
+   "CallEnd": "17:18:06"
+}
 
 ## License
 
