@@ -27,7 +27,7 @@ If a ML model efficeny changed, in this case EDA helps by having a quick look wh
 We have used Jupyter Notebook for Exploratory data analysis.
 
 #### Pipeline:
-![Alt text](docs/images/pipeline_flow.jpg")
+![Alt text](docs/images/pipeline_flow.jpg)
 
 Load Data
 Handle Missing value
@@ -108,7 +108,7 @@ Sample rest request url[POST]: http://localhost:9999/predict
 }
 
 Invoking prediction model using rest call (postman):
-![Alt text](/docs/images/successful_invoke_of_model.jpg")
+![Alt text](/docs/images/successful_invoke_of_model.jpg)
 
 ## License
 
