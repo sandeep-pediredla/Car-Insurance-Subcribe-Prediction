@@ -27,7 +27,7 @@ If a ML model efficeny changed, in this case EDA helps by having a quick look wh
 We have used Jupyter Notebook for Exploratory data analysis.
 
 #### Pipeline:
-![Alt text](docs/images/pipeline_flow.jpg")
+![Alt text](/docs/images/pipeline_flow.jpg")
 
 Load Data
 Handle Missing value
@@ -62,6 +62,9 @@ Handling of NA, empty & missing depends on the data.
 #### Improvements:
 1. Use a distributed preocessing engine instead of Scikit-Learn
 2. Read datasets from external source
+3. System testing
+4. Edge & corner case scenarios
+5. UI & server side validations
 
 ## Development:
 
@@ -69,11 +72,19 @@ Handling of NA, empty & missing depends on the data.
 Command to build docker
 
 ```sh
-docker build -t car_insurance_prediction .
+docker build -t car_insurance_prediction:latest .
 ```
-docker run -p 8888:8888 car_insurance_prediction
+
+Docker run command
+
+```sh
+docker run -p 9999:5000  -ti car_insurance_prediction:latest
+```
 
 #### Run 
+
+Sample rest request url[POST]: http://localhost:9999/predict
+
 ##### Rest Post request:
 
 {
@@ -95,6 +106,9 @@ docker run -p 8888:8888 car_insurance_prediction
    "CallStart": "17:17:42",
    "CallEnd": "17:18:06"
 }
+
+Invoking prediction model using rest call (postman):
+![Alt text](/docs/images/successful_invoke_of_model.jpg")
 
 ## License
 
