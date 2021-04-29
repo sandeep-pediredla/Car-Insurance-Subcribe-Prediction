@@ -59,6 +59,9 @@ For Encoding, I have used one hot encoder technique which is highly dependent on
 
 Handling of NA, empty & missing depends on the data.
 
+### testing data
+If we don't have testing data, we can make training data split into (training)80:20(testing). some of the techniques used is creating bucket for randomise of the data or divide into blocks and rotate the test dataset. you can find this inference in the code by allocating 20% for testing or else we will have overfit model. 
+
 #### Improvements:
 1. Use a distributed preocessing engine instead of Scikit-Learn
 2. Read datasets from external source
