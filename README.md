@@ -27,7 +27,7 @@ If a ML model efficeny changed, in this case EDA helps by having a quick look wh
 We have used Jupyter Notebook for Exploratory data analysis.
 
 #### Pipeline:
-![Alt text](/docs/images/pipeline_flow.jpg")
+![Alt text](docs/images/pipeline_flow.jpg")
 
 Load Data
 Handle Missing value
