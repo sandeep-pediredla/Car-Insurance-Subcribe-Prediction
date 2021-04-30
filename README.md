@@ -29,15 +29,8 @@ We have used Jupyter Notebook for Exploratory data analysis.
 #### Pipeline:
 ![Alt text](docs/images/pipeline_flow.jpg)
 
-Load Data
-Handle Missing value
-Removing duplicates
-Outlier Treatment
-Normalizing and Scaling
-Encoding
-Extract Features
+
 Train Model (We have used Scikit-Learn as a machine learning library) 
-Predict
 Expose the model as a web service
 
 ## API Architecture:
