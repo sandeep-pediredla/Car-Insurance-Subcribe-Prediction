@@ -35,8 +35,7 @@ Expose the model as a web service
 ## API Architecture:
 Develop REST API that allow us to predict customer's chance of buying policy. 
 Endpoint services:
-Predict
-Train (optional): for this we can use toggle operation at service level
+Predict service: for this we can use toggle operation at service level
 
 Deployment:
 We were wrapping rest services inside docker.
@@ -52,14 +51,14 @@ For Encoding, I have used one hot encoder technique which is highly dependent on
 Handling of NA, empty & missing depends on the data.
 
 ### testing data
-If we don't have testing data, we can make training data split into (training)80:20(testing). some of the techniques used is creating bucket for randomise of the data or divide into blocks and rotate the test dataset. you can find this reference in the code by allocating 20% for testing or else we will have overfit model. 
+If we don't have testing data, we can make training data split into (training)80:20(testing). some of thecommon techniques include creating bucket for randomise of the data or divide into blocks and rotate the test dataset. you can find this reference in the code by allocating 20% for testing or else we will have overfit model. 
 
 #### Improvements:
 1. Use a distributed preocessing engine instead of Scikit-Learn
 2. Read datasets from external source
 3. System testing
 4. Edge & corner case scenarios
-5. UI & server side validations
+5. UI form (great) & server side validations fo json
 
 ## Development:
 
