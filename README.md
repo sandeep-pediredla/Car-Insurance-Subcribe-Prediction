@@ -22,7 +22,6 @@ XGBoost, Scikit-Learn, TensorFlow or PyTorch. (We know there are notebooks in Ka
 ## Exploratory data analysis:
 
 Understanding of data, find patterns within the data & basic high level insights into data.
-If a ML model efficeny changed, in this case EDA helps by having a quick look what changed in data.
 
 We have used Jupyter Notebook for Exploratory data analysis.
 
